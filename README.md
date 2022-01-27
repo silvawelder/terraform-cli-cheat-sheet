@@ -7,4 +7,11 @@ List all components (resouces, datasources, modules) in the tfstate file
 
 Remove a component (resouces, datasources, modules) in the tfstate file
 
-```terraform state rm [options] ADDRESS...```
+```terraform state rm [options] <ADDRESS>```
+
+Destroy a component (resouces, datasources, modules)
+
+
+```terraform destroy -target <ADDRESS>```
+
+tip: get adresses references from de command ```terraform state list```
