@@ -14,4 +14,4 @@
 
 ```terraform destroy -target <ADDRESS>```
 
-tip: get adresses references from de command ```terraform state list```
+tip: get adresses references from command ```terraform state list```
