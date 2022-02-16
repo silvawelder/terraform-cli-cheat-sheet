@@ -21,7 +21,3 @@ tip: get adresses references from command ```terraform state list```
 
 ```terraform plan -target <ADDRESS> -out plan-DDMMYYYY```
 
-### Apply a component (resources, datasources, modules)
-
-
-```terraform apply -target <ADDRESS> "plan-DDMMYYYY"```
