@@ -15,3 +15,13 @@
 ```terraform destroy -target <ADDRESS>```
 
 tip: get adresses references from command ```terraform state list```
+
+### Plan a component (resources, datasources, modules)
+
+
+```terraform plan -target <ADDRESS> -out plan-DDMMYYYY```
+
+### Apply a component (resources, datasources, modules)
+
+
+```terraform apply -target <ADDRESS> "plan-DDMMYYYY"```
