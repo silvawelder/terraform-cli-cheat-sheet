@@ -21,3 +21,6 @@ tip: get adresses references from command ```terraform state list```
 
 ```terraform plan -target <ADDRESS> -out plan-DDMMYYYY```
 
+### Plan just to refresh tfstate definitions
+
+```terraform plan -refresh-only -out plan-DDMMYYYY```
