@@ -1,11 +1,11 @@
 # terraform-cli-cheat-sheet
 
-### List all components (resources, datasources, modules) in the tfstate file
+### List all components (resources, datasources, modules) in tfstate file
  
 ```terraform state list```
 
 
-### Remove a component (resources, datasources, modules) in the tfstate file
+### Remove a component (resources, datasources, modules) in tfstate file
 
 ```terraform state rm [options] <ADDRESS>```
 
